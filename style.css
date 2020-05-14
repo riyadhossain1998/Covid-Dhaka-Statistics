@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
 }
-h1{
+#logo{
   color: red;
   background-color: rgba(255, 255, 255, 0.3);
   width: 13rem;
@@ -13,5 +13,51 @@ h1{
 }
 .body{
   background: yellow;
-  max-height: 70rem;
+  max-width: 1500px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+}
+.tab-container{
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 4rem;
+}
+.other-container{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  border: 2px solid blue;
+  margin: 0 5rem;
+  padding: 2rem;
+}
+#table td{
+  border: 1px solid black;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
+  min-width: 8rem;
+}
+#title{
+  text-align: center;
+  font-weight: bolder;
+}
+.stats{
+  max-width: 40rem;
+  height: 25rem;
+  border: 2px dashed black;
+  text-align: center;
+
+}
+.desc{
+  max-width: 40rem;
+  height: 10rem;
+  border: 2px dashed black;
+  text-align: center;
+  line-height: 4rem;
+
+}
+.stats h1, h2{
+  margin: 5px 0px;
+  font-size: 2.5rem;
 }
